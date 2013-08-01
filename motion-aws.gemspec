@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["jamon@clearsightstudio.com"]
   spec.description   = %q{Provides iOS and OSX connectivity to AWS services}
   spec.summary       = %q{Provides iOS and OSX connectivity to AWS services}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.homepage      = "https://github.com/jamonholmgren/motion-aws"
+  spec.license       = "MIT"
 
   files = []
   files << 'README.md'
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "bubble-wrap"
 end
