@@ -1,6 +1,6 @@
-class Motion
-  class Aws
-
+module MotionAWS
+  class AWS
+    
   end
 end
 

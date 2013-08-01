@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
-VERSION = "1.0"
+VERSION = "0.0.1"
 
 Gem::Specification.new do |spec|
   spec.name          = "motion-aws"
   spec.version       = VERSION
   spec.authors       = ["Jamon Holmgren"]
   spec.email         = ["jamon@clearsightstudio.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Provides iOS and OSX connectivity to AWS services}
+  spec.summary       = %q{Provides iOS and OSX connectivity to AWS services}
   spec.homepage      = ""
   spec.license       = ""
 
