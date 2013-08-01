@@ -1,24 +1,30 @@
 # motion-aws
 
-TODO: Write a gem description
+Provides iOS and OSX connectivity to AWS services.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+    gem 'motion-aws', "~> 0.0.1"
 
-    gem 'motion-aws'
+## Config
 
-And then execute:
+You need to provide your AWS security credentials and choose a default region.
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install motion-aws
+    MotionAWS.config(access_key_id: '...', secret_access_key: '...', region: 'us-west-2')
 
 ## Usage
 
-TODO: Write usage instructions here
+### Amazon S3
+
+Currently in progress.
+
+    MotionAWS::S3
+
+### Amazon Glacier
+
+Currently in progress.
+
+    MotionAWS::Glacier
 
 ## Contributing
 
